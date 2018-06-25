@@ -1,0 +1,112 @@
+
+div#header {
+    background-color: #DEDEDE;
+}
+
+div#header img{
+    margin: 10px 10px 10px 10px;
+}
+div#header form {
+    position: absolute;
+    top: 12px;
+    left: 140px;
+
+}
+
+div#header form input#serchText{
+    padding: 0;
+    font-size: 20px;
+    height: 40px;
+    width: 500px;
+}
+div#header form button#serchButton {
+    height: 40px;
+    width: 40px;
+    border: none;
+}
+
+div#header lu{
+    margin-left: 140px;
+}
+div#header lu li{
+    text-align: center;
+    font-size: 80%;
+    padding: 10px 0 10px 0;
+    display: inline-block;
+    width: 80px;
+}
+
+div#header lu li a{
+    text-decoration: none;
+}
+
+div#header div#header-option{
+    position: absolute;
+    top: 80px;
+    left: 700px;
+}
+
+div#header div#header-option a{
+    font-size: 80%;
+    width: 100px;
+    padding: 5px 10px;
+}
+
+div#header div#header-option a:hover{
+    background: silver;
+    border: #666666;
+}
+
+div#search-field{
+    padding-top: 1em;
+    margin-left: 140px;
+    height: 20px;
+}
+
+div#search-field div#resultStatus{
+    display: block;
+}
+div#search-field div#selectResult{
+    display: none;
+}
+
+div#search-field div#selectResult select{
+    width: 200px;
+    margin:0;
+    padding:11px 35px 11px 11px;
+    padding:.6875rem 2.1875rem .6875rem .6875rem;
+    background:transparent;
+    border:0;
+    outline:none;
+    font-size:16px;
+}
+
+div#content{
+    margin: 50px 0px 50px 140px;
+    width: 700px;
+}
+div#content h2#title{
+    margin: 0px 0px 50px 0px;
+    text-align: center;
+}
+div#content p#AFFORD,
+div#content p#name{
+    text-align: right;
+}
+
+div#scrollBtn button#upBtn{
+    position: fixed;
+    top: 300px;
+    left: 850px;
+}
+
+div#scrollBtn button#downBtn {
+    position: fixed;
+    top: 350px;
+    left: 850px;
+}
+
+div#scrollBtn button{
+    height: 40px;
+    width: 40px;
+}

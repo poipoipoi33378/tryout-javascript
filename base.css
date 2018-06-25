@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/*
+1-1 Universal selector
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: #666666;
+    font-weight: normal;
+    font-style: normal;
+}
